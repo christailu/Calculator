@@ -23,107 +23,115 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="InputUser" alignment="1" max="32767" attributes="0"/>
-          <Component id="OutputResult" alignment="0" max="32767" attributes="0"/>
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="jButton2" min="-2" pref="58" max="-2" attributes="0"/>
+                      <Component id="Number7" min="-2" pref="58" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-                      <Component id="jButton4" min="-2" pref="58" max="-2" attributes="0"/>
+                      <Component id="Number8" min="-2" pref="58" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton3" min="-2" pref="61" max="-2" attributes="0"/>
+                      <Component id="Number9" min="-2" pref="61" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jButton5" min="-2" pref="58" max="-2" attributes="0"/>
+                      <Component id="Number4" min="-2" pref="58" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jButton6" min="-2" pref="58" max="-2" attributes="0"/>
+                      <Component id="Number5" min="-2" pref="58" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton7" min="-2" pref="58" max="-2" attributes="0"/>
+                      <Component id="Number6" min="-2" pref="58" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jButton8" min="-2" pref="58" max="-2" attributes="0"/>
+                      <Component id="Number1" min="-2" pref="58" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jButton17" pref="0" max="32767" attributes="0"/>
-                          <Component id="jButton9" min="-2" pref="58" max="-2" attributes="0"/>
+                          <Component id="Number0" pref="0" max="32767" attributes="0"/>
+                          <Component id="Number2" min="-2" pref="58" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jButton10" min="-2" pref="58" max="-2" attributes="0"/>
-                          <Component id="jButton18" min="-2" pref="58" max="-2" attributes="0"/>
+                          <Component id="Number3" min="-2" pref="58" max="-2" attributes="0"/>
+                          <Component id="dotbutton" min="-2" pref="58" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jButton13" alignment="0" pref="92" max="32767" attributes="0"/>
-                  <Component id="jButton14" max="32767" attributes="0"/>
-                  <Component id="jButton15" alignment="0" pref="92" max="32767" attributes="0"/>
-                  <Component id="jButton16" max="32767" attributes="0"/>
+                  <Component id="multiplacation" alignment="0" pref="92" max="32767" attributes="0"/>
+                  <Component id="subtraction" max="32767" attributes="0"/>
+                  <Component id="addition" alignment="0" pref="92" max="32767" attributes="0"/>
+                  <Component id="Result" max="32767" attributes="0"/>
               </Group>
           </Group>
           <Group type="102" attributes="0">
-              <Component id="jButton1" min="-2" pref="87" max="-2" attributes="0"/>
+              <Component id="Reset" min="-2" pref="87" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-              <Component id="jButton11" min="-2" pref="93" max="-2" attributes="0"/>
+              <Component id="modulo" min="-2" pref="93" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jButton12" max="32767" attributes="0"/>
+              <Component id="Division" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="Output" max="32767" attributes="0"/>
+                  <Component id="InputUser" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-              <Component id="InputUser" min="-2" pref="42" max="-2" attributes="0"/>
-              <EmptySpace min="-2" max="-2" attributes="0"/>
-              <Component id="OutputResult" min="-2" pref="45" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              <Component id="InputUser" min="-2" pref="48" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Output" min="-2" pref="51" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jButton1" max="32767" attributes="0"/>
+                  <Component id="Reset" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton12" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="jButton11" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="Division" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="modulo" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton4" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
-                          <Component id="jButton2" alignment="0" min="-2" pref="49" max="-2" attributes="0"/>
-                          <Component id="jButton3" min="-2" pref="49" max="-2" attributes="0"/>
-                          <Component id="jButton13" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Number7" alignment="0" min="-2" pref="49" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Number8" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="Number9" min="-2" pref="49" max="-2" attributes="0"/>
+                              <Component id="multiplacation" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jButton14" min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="subtraction" min="-2" pref="47" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jButton5" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
-                                  <Component id="jButton6" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
-                                  <Component id="jButton7" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="Number4" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="Number5" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="Number6" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                              <Component id="jButton8" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
-                              <Component id="jButton9" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
-                              <Component id="jButton10" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="Number1" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="Number2" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="Number3" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <Component id="jButton15" min="-2" pref="49" max="-2" attributes="0"/>
+                  <Component id="addition" min="-2" pref="49" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton16" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
-                  <Component id="jButton17" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
-                  <Component id="jButton18" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                  <Component id="Result" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                  <Component id="Number0" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                  <Component id="dotbutton" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="84" max="32767" attributes="0"/>
           </Group>
@@ -131,104 +139,104 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="InputUser">
+    <Component class="javax.swing.JButton" name="Reset">
       <Properties>
-        <Property name="text" type="java.lang.String" value="InputUser"/>
+        <Property name="text" type="java.lang.String" value="Reset"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="OutputResult">
+    <Component class="javax.swing.JButton" name="Number7">
       <Properties>
-        <Property name="text" type="java.lang.String" value="OutputResult"/>
+        <Property name="text" type="java.lang.String" value="7"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton1">
+    <Component class="javax.swing.JButton" name="Number9">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="9"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="Number8">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="8"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton3">
+    <Component class="javax.swing.JButton" name="Number4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="4"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton4">
+    <Component class="javax.swing.JButton" name="Number5">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="5"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton5">
+    <Component class="javax.swing.JButton" name="Number6">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="6"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton6">
+    <Component class="javax.swing.JButton" name="Number1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="1"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton7">
+    <Component class="javax.swing.JButton" name="Number2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="2"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton8">
+    <Component class="javax.swing.JButton" name="Number3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="3"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton9">
+    <Component class="javax.swing.JButton" name="modulo">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="%"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton10">
+    <Component class="javax.swing.JButton" name="Division">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="/"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton11">
+    <Component class="javax.swing.JButton" name="multiplacation">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="x"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton12">
+    <Component class="javax.swing.JButton" name="subtraction">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="-"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton13">
+    <Component class="javax.swing.JButton" name="addition">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="+"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton14">
+    <Component class="javax.swing.JButton" name="Result">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="="/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton15">
+    <Component class="javax.swing.JButton" name="Number0">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton16">
+    <Component class="javax.swing.JButton" name="dotbutton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="."/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton17">
+    <Component class="javax.swing.JTextField" name="InputUser">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="Input"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton18">
+    <Component class="javax.swing.JTextField" name="Output">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="Output"/>
       </Properties>
     </Component>
   </SubComponents>
