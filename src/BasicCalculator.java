@@ -90,7 +90,7 @@ public class BasicCalculator extends javax.swing.JFrame {
 
         dotbutton.setText(".");
 
-        InputUser.setText("Input");
+        InputUser.setText("InputUser");
 
         Output.setText("Output");
 

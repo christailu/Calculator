@@ -250,7 +250,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="InputUser">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Input"/>
+        <Property name="text" type="java.lang.String" value="InputUser"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="Output">
