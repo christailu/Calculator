@@ -67,8 +67,8 @@
           <Group type="102" attributes="0">
               <Component id="Reset" min="-2" pref="87" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-              <Component id="Back" min="-2" pref="93" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="Back" min="-2" pref="87" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="Division" pref="89" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
