@@ -58,9 +58,9 @@
               </Group>
               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="multiplacation" alignment="0" pref="84" max="32767" attributes="0"/>
+                  <Component id="multiplacation" alignment="0" pref="89" max="32767" attributes="0"/>
                   <Component id="subtraction" max="32767" attributes="0"/>
-                  <Component id="addition" alignment="0" pref="84" max="32767" attributes="0"/>
+                  <Component id="addition" alignment="0" pref="89" max="32767" attributes="0"/>
                   <Component id="Result" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -69,7 +69,7 @@
               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               <Component id="Back" min="-2" pref="93" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="Division" pref="84" max="32767" attributes="0"/>
+              <Component id="Division" pref="89" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
