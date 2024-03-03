@@ -27,24 +27,27 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Component id="Number7" min="-2" pref="58" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
                       <Component id="Number8" min="-2" pref="58" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Number9" min="-2" pref="61" max="-2" attributes="0"/>
+                      <Component id="Number9" min="-2" pref="58" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="Number4" min="-2" pref="58" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="Number5" min="-2" pref="58" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="Number6" min="-2" pref="58" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="Number1" min="-2" pref="58" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Number1" min="-2" pref="58" max="-2" attributes="0"/>
+                          <Component id="Modulo" min="-2" pref="58" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Number0" pref="0" max="32767" attributes="0"/>
-                          <Component id="Number2" min="-2" pref="58" max="-2" attributes="0"/>
+                          <Component id="Number0" pref="58" max="32767" attributes="0"/>
+                          <Component id="Number2" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -53,20 +56,20 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="multiplacation" alignment="0" pref="92" max="32767" attributes="0"/>
+                  <Component id="multiplacation" alignment="0" pref="84" max="32767" attributes="0"/>
                   <Component id="subtraction" max="32767" attributes="0"/>
-                  <Component id="addition" alignment="0" pref="92" max="32767" attributes="0"/>
+                  <Component id="addition" alignment="0" pref="84" max="32767" attributes="0"/>
                   <Component id="Result" max="32767" attributes="0"/>
               </Group>
           </Group>
           <Group type="102" attributes="0">
               <Component id="Reset" min="-2" pref="87" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-              <Component id="modulo" min="-2" pref="93" max="-2" attributes="0"/>
+              <Component id="Back" min="-2" pref="93" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="Division" max="32767" attributes="0"/>
+              <Component id="Division" pref="84" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
@@ -90,7 +93,7 @@
                   <Component id="Reset" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="Division" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                      <Component id="modulo" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="Back" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -132,8 +135,9 @@
                   <Component id="Result" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
                   <Component id="Number0" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
                   <Component id="dotbutton" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                  <Component id="Modulo" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="84" max="32767" attributes="0"/>
+              <EmptySpace pref="44" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -141,6 +145,9 @@
   <SubComponents>
     <Component class="javax.swing.JButton" name="Reset">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Reset"/>
       </Properties>
     </Component>
@@ -189,9 +196,15 @@
         <Property name="text" type="java.lang.String" value="3"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="modulo">
+    <Component class="javax.swing.JButton" name="Back">
       <Properties>
-        <Property name="text" type="java.lang.String" value="%"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Back"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="Division">
@@ -216,6 +229,12 @@
     </Component>
     <Component class="javax.swing.JButton" name="Result">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="="/>
       </Properties>
     </Component>
@@ -237,6 +256,11 @@
     <Component class="javax.swing.JTextField" name="Output">
       <Properties>
         <Property name="text" type="java.lang.String" value="Output"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Modulo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="%"/>
       </Properties>
     </Component>
   </SubComponents>
