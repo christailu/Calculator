@@ -51,6 +51,11 @@ public class BasicCalculator extends javax.swing.JFrame {
 
         Reset.setBackground(new java.awt.Color(255, 0, 0));
         Reset.setText("Reset");
+        Reset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ResetActionPerformed(evt);
+            }
+        });
 
         Number7.setText("7");
 
@@ -194,6 +199,13 @@ public class BasicCalculator extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void ResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ResetActionPerformed
+        // TODO add your handling code here:
+        
+        Output.setText("");
+        InputUser.setText("")
+    }//GEN-LAST:event_ResetActionPerformed
 
     /**
      * @param args the command line arguments
